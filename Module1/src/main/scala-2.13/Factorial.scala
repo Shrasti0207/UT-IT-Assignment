@@ -20,7 +20,7 @@ class Factorial {
     }
   }
 }
-object Main extends App{
+object FactorialDriver extends App{
   val logger = Logger(getClass)
   val factorial = new Factorial
   logger.info("Factorial of the number : " + factorial.findFactorial(3))

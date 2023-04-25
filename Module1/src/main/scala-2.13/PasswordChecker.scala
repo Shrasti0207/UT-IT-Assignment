@@ -18,7 +18,7 @@ class PasswordChecker(userName: String, userEmail: String) {
     }
   }
 }
-object Driver extends App{
+object PasswordCheckerDriver extends App{
   val logger = Logger(getClass)
   private val passwordChecker = new PasswordChecker("Shrasti0207", "abc@gmail.com")
   logger.info("password check:" + passwordChecker.checkPasswordStrength("Abc123"))
